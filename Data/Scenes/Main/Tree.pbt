@@ -4450,8 +4450,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 100
-      Y: 100
+      X: 400
+      Y: 400
       Z: 1
     }
   }
