@@ -4221,6 +4221,12 @@ Objects {
             Z: 75
           }
         }
+        Overrides {
+          Name: "Damageable.DestroyOnDeathNetworkedTemplateId"
+          AssetReference {
+            Id: 11456334612754940808
+          }
+        }
       }
     }
     TemplateAsset {

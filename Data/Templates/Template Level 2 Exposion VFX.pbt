@@ -1,6 +1,6 @@
 Assets {
   Id: 18121968099941103593
-  Name: "Level 2 Exposion VFX"
+  Name: "Template Level 2 Exposion VFX"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
