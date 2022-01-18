@@ -1,5 +1,5 @@
 Assets {
-  Id: 2960956349733381136
+  Id: 5006246323538683437
   Name: "Advanced Assault Rifle"
   PlatformAssetType: 5
   TemplateAsset {
@@ -2101,4 +2101,5 @@ Assets {
     }
   }
   SerializationVersion: 103
+  VirtualFolderPath: "Assault Rifle"
 }

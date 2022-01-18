@@ -4,5 +4,13 @@ Assets {
   PlatformAssetType: 30
   SerializationVersion: 103
   VirtualFolderSetAsset {
+    Folders {
+      VirtualFolderPath: "Assault Rifle"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Assault Rifle"
+      PlatformAssetType: 3
+    }
   }
 }
