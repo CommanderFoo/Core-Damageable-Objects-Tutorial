@@ -75,4 +75,5 @@ Assets {
     }
   }
   SerializationVersion: 103
+  VirtualFolderPath: "Tutorial Assets"
 }

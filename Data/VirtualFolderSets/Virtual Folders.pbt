@@ -12,5 +12,9 @@ Assets {
       VirtualFolderPath: "Assault Rifle"
       PlatformAssetType: 3
     }
+    Folders {
+      VirtualFolderPath: "Tutorial Assets"
+      PlatformAssetType: 5
+    }
   }
 }
