@@ -46,6 +46,6 @@ Assets {
       }
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
   VirtualFolderPath: "Assault Rifle"
 }

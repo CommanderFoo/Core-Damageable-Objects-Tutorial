@@ -1,14 +1,12 @@
 local ROOT = script:GetCustomProperty("Root"):WaitForObject()
 
-Events.Connect("show_damage_" .. ROOT.id, function(amount, position)
-	local color = Color.YELLOW
-
-	print(amount)
-
-	UI.ShowFlyUpText(tostring(amount), position, {
+local function ShowDamage(damageAmount, position)
+	UI.ShowFlyUpText(tostring(damageAmount), position, {
 
 		isBig = true,
-		color = color
+		color = Color.YELLOW
 
 	})
-end)
+end
+
+Events.Connect("show_damage_" .. ROOT.id, ShowDamage)

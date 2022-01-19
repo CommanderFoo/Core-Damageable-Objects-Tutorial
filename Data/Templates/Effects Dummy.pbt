@@ -1861,7 +1861,6 @@ Assets {
         ChildIds: 15721880708358189110
         ChildIds: 13752094897810888902
         ChildIds: 1369537309417821921
-        ChildIds: 9253420522682143587
         ChildIds: 13324189149445859660
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2107,57 +2106,6 @@ Assets {
             Pitch: -11.3235102
             Yaw: -10.0969992
             Roll: -34.091568
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 102579460809740516
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9722793879442335527
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 9253420522682143587
-        Name: "Fantasy Crossbow Bolt 01"
-        Transform {
-          Location {
-            X: 45.769104
-            Y: -65.436676
-            Z: -0.0424499512
-          }
-          Rotation {
-            Yaw: 133.407593
           }
           Scale {
             X: 1
@@ -4338,6 +4286,6 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 103
+  SerializationVersion: 104
   VirtualFolderPath: "Tutorial Assets"
 }
