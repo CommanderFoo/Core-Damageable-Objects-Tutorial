@@ -21,7 +21,6 @@ Assets {
         ChildIds: 438409715121514710
         ChildIds: 16074816689697612484
         ChildIds: 3303876232536878116
-        ChildIds: 15113200070868009230
         ChildIds: 869234762751390595
         ChildIds: 6819021597427965483
         UnregisteredParameters {
@@ -49,7 +48,7 @@ Assets {
               Id: 9799985446996192355
             }
             DestroyOnDeathNetworkedTemplateId {
-              Id: 4403109700279413973
+              Id: 460755333298918914
             }
           }
         }
@@ -73,12 +72,6 @@ Assets {
         }
         ParentId: 15767091347673181891
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:HelmetDamageable"
-            ObjectReference {
-              SubObjectId: 15113200070868009230
-            }
-          }
           Overrides {
             Name: "cs:HeadDamageable"
             ObjectReference {
@@ -2288,13 +2281,13 @@ Assets {
         }
       }
       Objects {
-        Id: 15113200070868009230
-        Name: "Helmet Damageable"
+        Id: 869234762751390595
+        Name: "Head Damageable"
         Transform {
           Location {
-            X: 7.49508667
-            Y: -0.629394531
-            Z: 215.578857
+            X: -7.77334595
+            Y: -2.39941406
+            Z: 127.641144
           }
           Rotation {
           }
@@ -2306,7 +2299,8 @@ Assets {
         }
         ParentId: 15767091347673181891
         ChildIds: 12179761275179628614
-        ChildIds: 16850353541960391645
+        ChildIds: 10484795364829211804
+        ChildIds: 7479636749677934605
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2342,10 +2336,13 @@ Assets {
         Name: "Helmet"
         Transform {
           Location {
+            X: 15.2684326
+            Y: 1.77001953
+            Z: 87.9377136
           }
           Rotation {
-            Yaw: 89.9999619
-            Roll: 171.349625
+            Yaw: 89.9999466
+            Roll: 171.349609
           }
           Scale {
             X: 1.21707523
@@ -2353,7 +2350,7 @@ Assets {
             Z: 1.21707523
           }
         }
-        ParentId: 15113200070868009230
+        ParentId: 869234762751390595
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2381,584 +2378,6 @@ Assets {
               LinearDamping: 0.01
             }
             BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 16850353541960391645
-        Name: "Geo"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15113200070868009230
-        ChildIds: 15280658504025045194
-        ChildIds: 16687502199062830367
-        ChildIds: 3554085584278802936
-        ChildIds: 11413795007626796186
-        ChildIds: 3622878407186853987
-        ChildIds: 14927584755218236545
-        ChildIds: 13886436173594030833
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        NetworkContext {
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 15280658504025045194
-        Name: "Flower Bellflower 01"
-        Transform {
-          Location {
-            X: 0.624053955
-            Y: 9.66674805
-            Z: -7.58139038
-          }
-          Rotation {
-            Pitch: 12.5990076
-            Yaw: -103.386276
-            Roll: 8.23271656
-          }
-          Scale {
-            X: 0.233278394
-            Y: 0.233278394
-            Z: 0.233278394
-          }
-        }
-        ParentId: 16850353541960391645
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 1
-              G: 0.0180004835
-              B: 0.0180000067
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1331602024798021524
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 16687502199062830367
-        Name: "Flower Bellflower 01"
-        Transform {
-          Location {
-            X: 0.624053955
-            Y: 9.66674805
-            Z: -7.58139038
-          }
-          Rotation {
-            Roll: 19.3390827
-          }
-          Scale {
-            X: 0.233278394
-            Y: 0.233278394
-            Z: 0.233278394
-          }
-        }
-        ParentId: 16850353541960391645
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1331602024798021524
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 3554085584278802936
-        Name: "Flower Wild Lily 02"
-        Transform {
-          Location {
-            X: 1.0184021
-            Y: 4.99829102
-            Z: -7.24816895
-          }
-          Rotation {
-            Roll: -1.1204834
-          }
-          Scale {
-            X: 0.194713846
-            Y: 0.194713846
-            Z: 0.194713846
-          }
-        }
-        ParentId: 16850353541960391645
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9168226539897803779
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 11413795007626796186
-        Name: "Fantasy Crossbow Bolt 01"
-        Transform {
-          Location {
-            X: -24.9023743
-            Y: 57.9857178
-            Z: -10.9645691
-          }
-          Rotation {
-            Pitch: -9.6700449
-            Yaw: -67.0243149
-            Roll: -30.5008163
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16850353541960391645
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9722793879442335527
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        NetworkRelevanceDistance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 3622878407186853987
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: -42.0971069
-            Y: -1.69567871
-            Z: -21.2891235
-          }
-          Rotation {
-            Pitch: 6.83018879e-06
-            Yaw: 89.9999542
-            Roll: 89.9999542
-          }
-          Scale {
-            X: 0.136812583
-            Y: 0.136806265
-            Z: 1.93781114
-          }
-        }
-        ParentId: 16850353541960391645
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 3
-          }
-          Overrides {
-            Name: "bp:Sides"
-            Int: 24
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Indent"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0.207552165
-          }
-          Overrides {
-            Name: "bp:Stroke Color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 0.367
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17188673927015139231
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:high"
-        }
-      }
-      Objects {
-        Id: 14927584755218236545
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: -42.0971069
-            Y: -1.69567871
-            Z: -21.2891235
-          }
-          Rotation {
-            Pitch: 6.83018879e-06
-            Yaw: 89.9999542
-            Roll: 89.9999542
-          }
-          Scale {
-            X: 0.0801864788
-            Y: 0.0801826268
-            Z: 1.13575685
-          }
-        }
-        ParentId: 16850353541960391645
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 3
-          }
-          Overrides {
-            Name: "bp:Sides"
-            Int: 24
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Indent"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0.207552165
-          }
-          Overrides {
-            Name: "bp:Stroke Color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 0.367
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17188673927015139231
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:high"
-        }
-      }
-      Objects {
-        Id: 13886436173594030833
-        Name: "2D Basic Shapes Decal"
-        Transform {
-          Location {
-            X: -42.0971069
-            Y: -1.69567871
-            Z: -21.2891235
-          }
-          Rotation {
-            Pitch: 6.83018879e-06
-            Yaw: 89.9999542
-            Roll: 89.9999542
-          }
-          Scale {
-            X: 0.0378418155
-            Y: 0.0378398299
-            Z: 1.39877224
-          }
-        }
-        ParentId: 16850353541960391645
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 3
-          }
-          Overrides {
-            Name: "bp:Sides"
-            Int: 24
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 0.158
-            }
-          }
-          Overrides {
-            Name: "bp:Stroke Width"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Indent"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Corner Rounding"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Blur"
-            Float: 0.207552165
-          }
-          Overrides {
-            Name: "bp:Stroke Color"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 0.367
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17188673927015139231
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:high"
-        }
-      }
-      Objects {
-        Id: 869234762751390595
-        Name: "Head Damageable"
-        Transform {
-          Location {
-            X: -7.77334595
-            Y: -2.39941406
-            Z: 127.641144
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15767091347673181891
-        ChildIds: 10484795364829211804
-        ChildIds: 7479636749677934605
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        DamageableObject {
-          DamageSettings {
-            MaxHitpoints: 100
-            StartingHitpoints: 100
-            DestroyOnDeath: true
-            DestroyOnDeathClientTemplateId {
-              Id: 841534158063459245
-            }
-            DestroyOnDeathNetworkedTemplateId {
-              Id: 841534158063459245
-            }
           }
         }
         NetworkRelevanceDistance {
@@ -3035,6 +2454,13 @@ Assets {
         ChildIds: 6342395720119449592
         ChildIds: 8983367348901839916
         ChildIds: 5450250747391138148
+        ChildIds: 15280658504025045194
+        ChildIds: 16687502199062830367
+        ChildIds: 3554085584278802936
+        ChildIds: 11413795007626796186
+        ChildIds: 3622878407186853987
+        ChildIds: 14927584755218236545
+        ChildIds: 13886436173594030833
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -3314,6 +2740,493 @@ Assets {
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 15280658504025045194
+        Name: "Flower Bellflower 01"
+        Transform {
+          Location {
+            X: 15.8924866
+            Y: 11.4367676
+            Z: 80.3563232
+          }
+          Rotation {
+            Pitch: 12.5990076
+            Yaw: -103.386284
+            Roll: 8.232728
+          }
+          Scale {
+            X: 0.233278394
+            Y: 0.233278394
+            Z: 0.233278394
+          }
+        }
+        ParentId: 7479636749677934605
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 1
+              G: 0.0180004835
+              B: 0.0180000067
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1331602024798021524
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 16687502199062830367
+        Name: "Flower Bellflower 01"
+        Transform {
+          Location {
+            X: 15.8924866
+            Y: 11.4367676
+            Z: 80.3563232
+          }
+          Rotation {
+            Roll: 19.3390827
+          }
+          Scale {
+            X: 0.233278394
+            Y: 0.233278394
+            Z: 0.233278394
+          }
+        }
+        ParentId: 7479636749677934605
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1331602024798021524
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 3554085584278802936
+        Name: "Flower Wild Lily 02"
+        Transform {
+          Location {
+            X: 16.2868347
+            Y: 6.76831055
+            Z: 80.6895447
+          }
+          Rotation {
+            Roll: -1.1204834
+          }
+          Scale {
+            X: 0.194713846
+            Y: 0.194713846
+            Z: 0.194713846
+          }
+        }
+        ParentId: 7479636749677934605
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9168226539897803779
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 11413795007626796186
+        Name: "Fantasy Crossbow Bolt 01"
+        Transform {
+          Location {
+            X: -9.63394165
+            Y: 59.7557373
+            Z: 76.9731445
+          }
+          Rotation {
+            Pitch: -9.67005157
+            Yaw: -67.0243378
+            Roll: -30.5008259
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7479636749677934605
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9722793879442335527
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 3622878407186853987
+        Name: "2D Basic Shapes Decal"
+        Transform {
+          Location {
+            X: -26.8286743
+            Y: 0.0743408203
+            Z: 66.6485901
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999542
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 0.136812583
+            Y: 0.136806265
+            Z: 1.93781114
+          }
+        }
+        ParentId: 7479636749677934605
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 3
+          }
+          Overrides {
+            Name: "bp:Sides"
+            Int: 24
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Stroke Width"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Indent"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Corner Rounding"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Blur"
+            Float: 0.207552165
+          }
+          Overrides {
+            Name: "bp:Stroke Color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.367
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17188673927015139231
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 14927584755218236545
+        Name: "2D Basic Shapes Decal"
+        Transform {
+          Location {
+            X: -26.8286743
+            Y: 0.0743408203
+            Z: 66.6485901
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999542
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 0.0801864788
+            Y: 0.0801826268
+            Z: 1.13575685
+          }
+        }
+        ParentId: 7479636749677934605
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 3
+          }
+          Overrides {
+            Name: "bp:Sides"
+            Int: 24
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Stroke Width"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Indent"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Corner Rounding"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Blur"
+            Float: 0.207552165
+          }
+          Overrides {
+            Name: "bp:Stroke Color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.367
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17188673927015139231
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
+        }
+      }
+      Objects {
+        Id: 13886436173594030833
+        Name: "2D Basic Shapes Decal"
+        Transform {
+          Location {
+            X: -26.8286743
+            Y: 0.0743408203
+            Z: 66.6485901
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999542
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 0.0378418155
+            Y: 0.0378398299
+            Z: 1.39877224
+          }
+        }
+        ParentId: 7479636749677934605
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 3
+          }
+          Overrides {
+            Name: "bp:Sides"
+            Int: 24
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.158
+            }
+          }
+          Overrides {
+            Name: "bp:Stroke Width"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Indent"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Corner Rounding"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Blur"
+            Float: 0.207552165
+          }
+          Overrides {
+            Name: "bp:Stroke Color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.367
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17188673927015139231
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
         }
       }
       Objects {
@@ -4589,24 +4502,6 @@ Assets {
       }
     }
     Assets {
-      Id: 1331602024798021524
-      Name: "Flower Bellflower 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_foliage_gen_flower_bell_001_ref"
-      }
-    }
-    Assets {
-      Id: 9168226539897803779
-      Name: "Flower Wild Lily 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_foliage_gen_flower_wild_lily_002_ref"
-      }
-    }
-    Assets {
       Id: 10366029525062417956
       Name: "Military Sandbag 01"
       PlatformAssetType: 1
@@ -4631,6 +4526,24 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "plastic_matte_001"
+      }
+    }
+    Assets {
+      Id: 1331602024798021524
+      Name: "Flower Bellflower 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_foliage_gen_flower_bell_001_ref"
+      }
+    }
+    Assets {
+      Id: 9168226539897803779
+      Name: "Flower Wild Lily 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_foliage_gen_flower_wild_lily_002_ref"
       }
     }
     Assets {

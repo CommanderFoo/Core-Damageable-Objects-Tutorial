@@ -80,8 +80,8 @@ Assets {
           AudioBP {
             AutoPlay: true
             Volume: 1
-            Falloff: 3600
-            Radius: 400
+            Falloff: 4299.82861
+            Radius: 1040.85083
             IsAttenuationEnabled: true
           }
         }

@@ -2,7 +2,6 @@ local ROOT = script.parent
 
 local parts = {
 
-	script:GetCustomProperty("HelmetDamageable"):WaitForObject(),
 	script:GetCustomProperty("HeadDamageable"):WaitForObject(),
 	script:GetCustomProperty("RightHandDamageable"):WaitForObject(),
 	script:GetCustomProperty("LeftHandDamageable"):WaitForObject(),
