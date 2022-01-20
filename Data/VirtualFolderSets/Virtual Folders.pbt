@@ -16,5 +16,10 @@ Assets {
       VirtualFolderPath: "Tutorial Assets"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "Tutorial Assets"
+      VirtualFolderPath: "Dummies"
+      PlatformAssetType: 5
+    }
   }
 }
