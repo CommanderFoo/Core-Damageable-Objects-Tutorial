@@ -1,6 +1,6 @@
 Assets {
   Id: 460755333298918914
-  Name: "Advanced Dummy Scatter"
+  Name: "Advanced Scatter"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

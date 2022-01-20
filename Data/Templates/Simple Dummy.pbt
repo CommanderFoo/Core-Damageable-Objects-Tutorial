@@ -1,13 +1,13 @@
 Assets {
   Id: 1626164772379385443
-  Name: "Simply Dummy"
+  Name: "Simple Dummy"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 17458553612486773941
       Objects {
         Id: 17458553612486773941
-        Name: "Simply Dummy"
+        Name: "Simple Dummy"
         Transform {
           Scale {
             X: 1
@@ -49,7 +49,7 @@ Assets {
       }
       Objects {
         Id: 7898966647171284852
-        Name: "Dummy"
+        Name: "Simple Dummy"
         Transform {
           Location {
           }

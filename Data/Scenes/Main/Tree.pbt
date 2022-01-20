@@ -51,40 +51,13 @@ Objects {
   }
   ParentId: 4781671109827199097
   WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 869234762751390595
-      value {
-        Overrides {
-          Name: "Damageable.DestroyOnDeathClientTemplateId"
-          AssetReference {
-            Id: 2205457267541271214
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6819021597427965483
-      value {
-        Overrides {
-          Name: "Damageable.DestroyOnDeathClientTemplateId"
-          AssetReference {
-            Id: 2205457267541271214
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15113200070868009230
-      value {
-        Overrides {
-          Name: "Damageable.DestroyOnDeathClientTemplateId"
-          AssetReference {
-            Id: 2205457267541271214
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 15767091347673181891
       value {
@@ -101,26 +74,8 @@ Objects {
           }
         }
         Overrides {
-          Name: "Damageable.DestroyOnDeathNetworkedTemplateId"
-          AssetReference {
-            Id: 460755333298918914
-          }
-        }
-        Overrides {
-          Name: "Damageable.DestroyOnDeathClientTemplateId"
-          AssetReference {
-            Id: 7995595815668292459
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16074816689697612484
-      value {
-        Overrides {
-          Name: "Damageable.DestroyOnDeathClientTemplateId"
-          AssetReference {
-            Id: 2205457267541271214
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -154,7 +109,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Combined Dummy"
+          String: "Combined Level 1 Dummy"
         }
         Overrides {
           Name: "Position"
@@ -246,7 +201,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Template Dummy"
+          String: "Template Level 1 Dummy"
         }
         Overrides {
           Name: "Position"
@@ -338,7 +293,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Simply Dummy"
+          String: "Simple Dummy"
         }
         Overrides {
           Name: "Position"

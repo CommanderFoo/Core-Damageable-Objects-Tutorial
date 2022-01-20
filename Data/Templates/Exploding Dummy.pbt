@@ -49,7 +49,7 @@ Assets {
       }
       Objects {
         Id: 7050937349898640476
-        Name: "Dummy"
+        Name: "Exploding Dummy"
         Transform {
           Location {
           }
