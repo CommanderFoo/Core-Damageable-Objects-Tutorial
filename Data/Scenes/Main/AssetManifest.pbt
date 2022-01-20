@@ -43,12 +43,3 @@ Assets {
     AssetId: "mi_grass_artificial_001_uv_ref"
   }
 }
-Assets {
-  Id: 792959017643663366
-  Name: "Wood Impact VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_gun_impact_wood_sm"
-  }
-}

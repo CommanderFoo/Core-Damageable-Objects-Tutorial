@@ -22,7 +22,6 @@ Objects {
   ChildIds: 9129459751397502317
   ChildIds: 9692428786268968884
   ChildIds: 11522898849304556410
-  ChildIds: 4648894717357909517
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,53 +34,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4648894717357909517
-  Name: "Wood Impact VFX"
-  Transform {
-    Location {
-      X: 440.798157
-      Y: 1214.39343
-      Z: -0.0424194336
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 792959017643663366
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -101,6 +53,39 @@ Objects {
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
+      key: 869234762751390595
+      value {
+        Overrides {
+          Name: "Damageable.DestroyOnDeathClientTemplateId"
+          AssetReference {
+            Id: 2205457267541271214
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6819021597427965483
+      value {
+        Overrides {
+          Name: "Damageable.DestroyOnDeathClientTemplateId"
+          AssetReference {
+            Id: 2205457267541271214
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15113200070868009230
+      value {
+        Overrides {
+          Name: "Damageable.DestroyOnDeathClientTemplateId"
+          AssetReference {
+            Id: 2205457267541271214
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 15767091347673181891
       value {
         Overrides {
@@ -118,7 +103,24 @@ Objects {
         Overrides {
           Name: "Damageable.DestroyOnDeathNetworkedTemplateId"
           AssetReference {
-            Id: 14523470891787627996
+            Id: 460755333298918914
+          }
+        }
+        Overrides {
+          Name: "Damageable.DestroyOnDeathClientTemplateId"
+          AssetReference {
+            Id: 7995595815668292459
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16074816689697612484
+      value {
+        Overrides {
+          Name: "Damageable.DestroyOnDeathClientTemplateId"
+          AssetReference {
+            Id: 2205457267541271214
           }
         }
       }
