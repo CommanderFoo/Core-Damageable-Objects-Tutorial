@@ -1,5 +1,0 @@
-Game.playerJoinedEvent:Connect(function(player)
-	player.equippedEvent:Connect(function(a, b)
-		print(a, b)
-	end)
-end)
