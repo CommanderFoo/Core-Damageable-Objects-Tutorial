@@ -4,5 +4,9 @@ Assets {
   PlatformAssetType: 30
   SerializationVersion: 104
   VirtualFolderSetAsset {
+    Folders {
+      VirtualFolderPath: "Tutorial Assets"
+      PlatformAssetType: 5
+    }
   }
 }
