@@ -88,7 +88,7 @@ Assets {
             BeamAssetRef {
               Id: 841534158063459245
             }
-            BurstCount: 30
+            BurstCount: 100
             BurstDuration: 6.5
             BurstStopsWithRelease: true
             AttackCooldown: 0.25
@@ -1918,7 +1918,7 @@ Assets {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 2.3
+            Duration: 0.1
             CanMove: true
             CanJump: true
             CanRotate: true

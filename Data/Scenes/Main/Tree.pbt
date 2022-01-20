@@ -380,6 +380,16 @@ Objects {
           Name: "Name"
           String: "Advanced Assault Rifle"
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
       }
     }
     TemplateAsset {
