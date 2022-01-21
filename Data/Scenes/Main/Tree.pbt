@@ -16,7 +16,7 @@ Objects {
   }
   ChildIds: 15730662516598526214
   ChildIds: 1821545894116462865
-  ChildIds: 5510748590847871324
+  ChildIds: 13142940215328959133
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,12 +35,10 @@ Objects {
   }
 }
 Objects {
-  Id: 5510748590847871324
-  Name: "Effects Damageable Object"
+  Id: 13142940215328959133
+  Name: "Damageable Object"
   Transform {
     Location {
-      X: 761.399841
-      Z: 84.7093048
     }
     Rotation {
     }
@@ -51,7 +49,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 474808740928657586
+  ChildIds: 4546634079347748242
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -74,7 +72,7 @@ Objects {
         Id: 9799985446996192355
       }
       DestroyOnDeathNetworkedTemplateId {
-        Id: 841534158063459245
+        Id: 14752805913586653731
       }
     }
   }
@@ -83,8 +81,8 @@ Objects {
   }
 }
 Objects {
-  Id: 474808740928657586
-  Name: "Effects Dummy"
+  Id: 4546634079347748242
+  Name: "Template 1 Dummy"
   Transform {
     Scale {
       X: 1
@@ -92,15 +90,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5510748590847871324
+  ParentId: 13142940215328959133
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
-      key: 8121179625128868129
+      key: 5957043387216549023
       value {
         Overrides {
           Name: "Name"
-          String: "Effects Dummy"
+          String: "Template 1 Dummy"
         }
         Overrides {
           Name: "Scale"
@@ -113,7 +111,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 9323310144079153479
+      Id: 17826200750605537296
     }
   }
 }
