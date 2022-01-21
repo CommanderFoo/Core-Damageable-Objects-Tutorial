@@ -213,7 +213,6 @@ Assets {
             ChildIds: 13367154870962106672
             ChildIds: 17288950068153803207
             ChildIds: 69855768737898553
-            ChildIds: 3271008238258027182
             WantsNetworking: true
             Collidable_v2 {
               Value: "mc:ecollisionsetting:forceoff"
@@ -3670,146 +3669,6 @@ Assets {
             }
           }
           Objects {
-            Id: 3271008238258027182
-            Name: "UI Container"
-            Transform {
-              Location {
-                Z: 293.090851
-              }
-              Rotation {
-                Yaw: 180
-              }
-              Scale {
-                X: 1
-                Y: 1
-                Z: 1
-              }
-            }
-            ParentId: 3519260971885057045
-            ChildIds: 4194157796311852835
-            Collidable_v2 {
-              Value: "mc:ecollisionsetting:inheritfromparent"
-            }
-            Visible_v2 {
-              Value: "mc:evisibilitysetting:inheritfromparent"
-            }
-            CameraCollidable {
-              Value: "mc:ecollisionsetting:inheritfromparent"
-            }
-            EditorIndicatorVisibility {
-              Value: "mc:eindicatorvisibility:visiblewhenselected"
-            }
-            Control {
-              RenderTransformPivot {
-                Anchor {
-                  Value: "mc:euianchor:middlecenter"
-                }
-              }
-              Canvas {
-                ContentType {
-                  Value: "mc:ecanvascontenttype:dynamic"
-                }
-                Opacity: 1
-                CanvasWorldSize {
-                  X: 400
-                  Y: 50
-                }
-                RedrawTime: 30
-              }
-              AnchorLayout {
-                SelfAnchor {
-                  Anchor {
-                    Value: "mc:euianchor:topleft"
-                  }
-                }
-                TargetAnchor {
-                  Anchor {
-                    Value: "mc:euianchor:topleft"
-                  }
-                }
-              }
-            }
-          }
-          Objects {
-            Id: 4194157796311852835
-            Name: "Text"
-            Transform {
-              Location {
-                Z: -293.090851
-              }
-              Rotation {
-                Yaw: 179.999985
-              }
-              Scale {
-                X: 1
-                Y: 1
-                Z: 1
-              }
-            }
-            ParentId: 3271008238258027182
-            Collidable_v2 {
-              Value: "mc:ecollisionsetting:inheritfromparent"
-            }
-            Visible_v2 {
-              Value: "mc:evisibilitysetting:inheritfromparent"
-            }
-            CameraCollidable {
-              Value: "mc:ecollisionsetting:inheritfromparent"
-            }
-            EditorIndicatorVisibility {
-              Value: "mc:eindicatorvisibility:visiblewhenselected"
-            }
-            Control {
-              Width: 200
-              Height: 60
-              RenderTransformPivot {
-                Anchor {
-                  Value: "mc:euianchor:middlecenter"
-                }
-              }
-              Text {
-                Label: "Template Level 2 Dummy"
-                Color {
-                  R: 1
-                  G: 1
-                  B: 1
-                  A: 1
-                }
-                Size: 20
-                Justification {
-                  Value: "mc:etextjustify:center"
-                }
-                Font {
-                  Id: 7248779574964335593
-                }
-                VerticalJustification {
-                  Value: "mc:everticaljustification:center"
-                }
-                ShadowColor {
-                  A: 1
-                }
-                ShadowOffset {
-                }
-                OutlineColor {
-                  A: 1
-                }
-                OutlineSize: 4
-              }
-              AnchorLayout {
-                SelfAnchor {
-                  Anchor {
-                    Value: "mc:euianchor:middlecenter"
-                  }
-                }
-                TargetAnchor {
-                  Anchor {
-                    Value: "mc:euianchor:middlecenter"
-                  }
-                }
-              }
-            }
-          }
-          Objects {
             Id: 12591115315920969437
             Name: "Body"
             Transform {
@@ -4281,15 +4140,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_barrel_001"
-      }
-    }
-    Assets {
-      Id: 7248779574964335593
-      Name: "Play Bold"
-      PlatformAssetType: 28
-      PrimaryAsset {
-        AssetType: "FontAssetRef"
-        AssetId: "PlayBold_ref"
       }
     }
     Assets {
@@ -33855,6 +33705,15 @@ Assets {
       }
       DirectlyPublished: true
       VirtualFolderPath: "Tutorial Assets"
+    }
+    Assets {
+      Id: 7248779574964335593
+      Name: "Play Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "PlayBold_ref"
+      }
     }
     Assets {
       Id: 9164762681017249603
