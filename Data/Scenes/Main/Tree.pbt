@@ -15,6 +15,8 @@ Objects {
     }
   }
   ChildIds: 15730662516598526214
+  ChildIds: 1821545894116462865
+  ChildIds: 5510748590847871324
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +32,136 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 5510748590847871324
+  Name: "Effects Damageable Object"
+  Transform {
+    Location {
+      X: 761.399841
+      Z: 84.7093048
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 474808740928657586
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  DamageableObject {
+    DamageSettings {
+      MaxHitpoints: 100
+      StartingHitpoints: 100
+      DestroyOnDeath: true
+      DestroyOnDeathClientTemplateId {
+        Id: 9799985446996192355
+      }
+      DestroyOnDeathNetworkedTemplateId {
+        Id: 841534158063459245
+      }
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 474808740928657586
+  Name: "Effects Dummy"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5510748590847871324
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8121179625128868129
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Effects Dummy"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9323310144079153479
+    }
+  }
+}
+Objects {
+  Id: 1821545894116462865
+  Name: "Advanced Assault Rifle"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 798527041546519963
+      value {
+        Overrides {
+          Name: "CastDuration"
+          Float: 0.1
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13859206571032135798
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Advanced Assault Rifle"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 130.41629
+            Z: 50.7150421
+          }
+        }
+        Overrides {
+          Name: "BurstCount"
+          Int: 3000
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6509349868688315035
+    }
   }
 }
 Objects {
