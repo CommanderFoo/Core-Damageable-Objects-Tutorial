@@ -3676,7 +3676,7 @@ Assets {
             }
           }
           Text {
-            Label: "Template Level 2 Dummy"
+            Label: "Combined Level 2 Dummy"
             Color {
               R: 1
               G: 1

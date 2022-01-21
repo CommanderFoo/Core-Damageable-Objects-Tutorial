@@ -1,13 +1,13 @@
 Assets {
   Id: 14752805913586653731
-  Name: "Template Level 2 Dummy"
+  Name: "Chained Level 2 Dummy"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 8472286424712965516
       Objects {
         Id: 8472286424712965516
-        Name: "Template Level 2 Dummy"
+        Name: "Chained Level 2 Dummy"
         Transform {
           Scale {
             X: 1
@@ -3675,7 +3675,7 @@ Assets {
             }
           }
           Text {
-            Label: "Template Level 2 Dummy"
+            Label: "Chained Level 2 Dummy"
             Color {
               R: 1
               G: 1

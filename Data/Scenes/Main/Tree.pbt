@@ -201,7 +201,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Template Level 1 Dummy"
+          String: "Chained Level 1 Dummy"
         }
         Overrides {
           Name: "Position"
