@@ -14,7 +14,7 @@ for _, mesh in ipairs(meshes) do
 
 	if mesh.isSimulatingDebrisPhysics then
 		mesh.lifeSpan = RNG:GetNumber(2.5, 5)
-		mesh:SetVelocity(RNG:GetVector3FromCone(Vector3.UP, 60) * power)
+		mesh:SetVelocity(RNG:GetVector3FromCone(Vector3.UP, 90, 90) * power)
 	else
 		mesh:Destroy()
 	end
