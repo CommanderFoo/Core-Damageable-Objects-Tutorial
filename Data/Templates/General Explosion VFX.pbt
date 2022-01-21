@@ -1,6 +1,6 @@
 Assets {
   Id: 9799985446996192355
-  Name: "General Exposion VFX"
+  Name: "General Explosion VFX"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

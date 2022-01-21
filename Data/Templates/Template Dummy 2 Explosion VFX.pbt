@@ -1,13 +1,13 @@
 Assets {
-  Id: 14707748068892910145
-  Name: "Combined Level 2 Exposion VFX"
+  Id: 18121968099941103593
+  Name: "Template Dummy 2 Explosion VFX"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 445316868778502538
       Objects {
         Id: 445316868778502538
-        Name: "Combined Level 2 Exposion VFX"
+        Name: "Level 2 Exposion VFX"
         Transform {
           Scale {
             X: 1
@@ -24,17 +24,17 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.969079494
-              G: 1
-              B: 0.0260000825
+              G: 0.254762203
+              B: 0.642000079
               A: 1
             }
           }
           Overrides {
             Name: "bp:Smoke Color"
             Color {
-              R: 0.666
-              G: 0.570857048
+              R: 0.266000032
+              G: 0.662127078
+              B: 1
               A: 1
             }
           }
