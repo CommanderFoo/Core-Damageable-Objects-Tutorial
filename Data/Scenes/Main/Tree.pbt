@@ -16,8 +16,7 @@ Objects {
   }
   ChildIds: 15730662516598526214
   ChildIds: 1821545894116462865
-  ChildIds: 17693537191127237058
-  ChildIds: 13676917848510005627
+  ChildIds: 5181919864506592555
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,9 +35,13 @@ Objects {
   }
 }
 Objects {
-  Id: 13676917848510005627
-  Name: "Chained Level 1 Dummy"
+  Id: 5181919864506592555
+  Name: "Chained Damageable Object"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -47,62 +50,33 @@ Objects {
   }
   ParentId: 4781671109827199097
   WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8472286424712965516
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Chained Level 1 Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 582.950134
-            Y: 246.164062
-            Z: -0.042427063
-          }
-        }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  DamageableObject {
+    DamageSettings {
+      MaxHitpoints: 100
+      StartingHitpoints: 100
+      DestroyOnDeath: true
+      DestroyOnDeathClientTemplateId {
+        Id: 841534158063459245
+      }
+      DestroyOnDeathNetworkedTemplateId {
+        Id: 841534158063459245
       }
     }
-    TemplateAsset {
-      Id: 14752805913586653731
-    }
   }
-}
-Objects {
-  Id: 17693537191127237058
-  Name: "Chained 1 Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5957043387216549023
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Chained 1 Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 587.929077
-            Y: 476.762604
-            Z: -0.042427063
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17826200750605537296
-    }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
