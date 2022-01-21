@@ -12251,7 +12251,7 @@ Assets {
       Name: "ScatterClient"
       PlatformAssetType: 3
       TextAsset {
-        Text: "local SUPPORTED = script:GetCustomProperty(\"Supported\"):WaitForObject()\r\nlocal NOT_SUPPORTED = script:GetCustomProperty(\"NotSupported\"):WaitForObject()\r\n\r\nNOT_SUPPORTED:Destroy()\r\n\r\nlocal meshes = SUPPORTED:FindDescendantsByType(\"StaticMesh\")\r\nlocal power = 400\r\nlocal RNG = RandomStream.New()\r\n\r\nfor _, mesh in ipairs(meshes) do\r\n\tmesh.collision = Collision.FORCE_ON\r\n\tmesh.cameraCollision = Collision.FORCE_OFF\r\n\tmesh.isSimulatingDebrisPhysics = true\r\n\r\n\tif mesh.isSimulatingDebrisPhysics then\r\n\t\tmesh.lifeSpan = RNG:GetNumber(2.5, 5)\r\n\t\tmesh:SetVelocity(RNG:GetVector3FromCone(Vector3.UP, 60) * power)\r\n\telse\r\n\t\tmesh:Destroy()\r\n\tend\r\nend"
+        Text: "local SUPPORTED = script:GetCustomProperty(\"Supported\"):WaitForObject()\r\nlocal NOT_SUPPORTED = script:GetCustomProperty(\"NotSupported\"):WaitForObject()\r\n\r\nNOT_SUPPORTED:Destroy()\r\n\r\nlocal meshes = SUPPORTED:FindDescendantsByType(\"StaticMesh\")\r\nlocal power = 400\r\nlocal RNG = RandomStream.New()\r\n\r\nfor _, mesh in ipairs(meshes) do\r\n\tmesh.collision = Collision.FORCE_ON\r\n\tmesh.cameraCollision = Collision.FORCE_OFF\r\n\tmesh.isSimulatingDebrisPhysics = true\r\n\r\n\tif mesh.isSimulatingDebrisPhysics then\r\n\t\tmesh.lifeSpan = RNG:GetNumber(2.5, 5)\r\n\t\tmesh:SetVelocity(RNG:GetVector3FromCone(Vector3.UP, 90, 90) * power)\r\n\telse\r\n\t\tmesh:Destroy()\r\n\tend\r\nend"
         CustomParameters {
           Overrides {
             Name: "cs:Supported"
