@@ -16,7 +16,8 @@ Objects {
   }
   ChildIds: 15730662516598526214
   ChildIds: 1821545894116462865
-  ChildIds: 13142940215328959133
+  ChildIds: 17693537191127237058
+  ChildIds: 13676917848510005627
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,13 +36,9 @@ Objects {
   }
 }
 Objects {
-  Id: 13142940215328959133
-  Name: "Damageable Object"
+  Id: 13676917848510005627
+  Name: "Chained Level 1 Dummy"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -49,40 +46,33 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 4546634079347748242
   WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  DamageableObject {
-    DamageSettings {
-      MaxHitpoints: 100
-      StartingHitpoints: 100
-      DestroyOnDeath: true
-      DestroyOnDeathClientTemplateId {
-        Id: 9799985446996192355
-      }
-      DestroyOnDeathNetworkedTemplateId {
-        Id: 14752805913586653731
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8472286424712965516
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chained Level 1 Dummy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 582.950134
+            Y: 246.164062
+            Z: -0.042427063
+          }
+        }
       }
     }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
+    TemplateAsset {
+      Id: 14752805913586653731
+    }
   }
 }
 Objects {
-  Id: 4546634079347748242
-  Name: "Template 1 Dummy"
+  Id: 17693537191127237058
+  Name: "Chained 1 Dummy"
   Transform {
     Scale {
       X: 1
@@ -90,7 +80,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13142940215328959133
+  ParentId: 4781671109827199097
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -98,14 +88,14 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Template 1 Dummy"
+          String: "Chained 1 Dummy"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 587.929077
+            Y: 476.762604
+            Z: -0.042427063
           }
         }
       }

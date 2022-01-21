@@ -1,6 +1,6 @@
 Assets {
   Id: 18121968099941103593
-  Name: "Template Dummy 2 Explosion VFX"
+  Name: "Chained Level 2 Dummy Explosion VFX"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
