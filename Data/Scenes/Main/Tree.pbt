@@ -16,7 +16,7 @@ Objects {
   }
   ChildIds: 15730662516598526214
   ChildIds: 1821545894116462865
-  ChildIds: 16527483684003366470
+  ChildIds: 2759139862910361771
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,12 +35,12 @@ Objects {
   }
 }
 Objects {
-  Id: 16527483684003366470
+  Id: 2759139862910361771
   Name: "Damageable Object"
   Transform {
     Location {
-      X: 472.795593
-      Z: 95.9218292
+      X: 572.006775
+      Z: 88.192276
     }
     Rotation {
     }
@@ -51,7 +51,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 1812563835905451256
+  ChildIds: 18310321254459536942
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -71,7 +71,7 @@ Objects {
       StartingHitpoints: 100
       DestroyOnDeath: true
       DestroyOnDeathClientTemplateId {
-        Id: 9799985446996192355
+        Id: 841534158063459245
       }
       DestroyOnDeathNetworkedTemplateId {
         Id: 4403109700279413973
@@ -83,7 +83,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1812563835905451256
+  Id: 18310321254459536942
   Name: "Exploding Dummy"
   Transform {
     Scale {
@@ -92,7 +92,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16527483684003366470
+  ParentId: 2759139862910361771
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
