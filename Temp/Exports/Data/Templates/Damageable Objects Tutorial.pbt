@@ -4451,7 +4451,7 @@ Assets {
     }
     Assets {
       Id: 18121968099941103593
-      Name: "Template Dummy 2 Exposion VFX"
+      Name: "Template Dummy 2 Explosion VFX"
       PlatformAssetType: 5
       TemplateAsset {
         ObjectBlock {
@@ -16479,7 +16479,7 @@ Assets {
     }
     Assets {
       Id: 9799985446996192355
-      Name: "General Exposion VFX"
+      Name: "General Explosion VFX"
       PlatformAssetType: 5
       TemplateAsset {
         ObjectBlock {
@@ -25595,7 +25595,7 @@ Assets {
     }
     Assets {
       Id: 14707748068892910145
-      Name: "Combined Level 2 Exposion VFX"
+      Name: "Combined Level 2 Explosion VFX"
       PlatformAssetType: 5
       TemplateAsset {
         ObjectBlock {

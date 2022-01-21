@@ -1,13 +1,13 @@
 Assets {
-  Id: 14707748068892910145
-  Name: "Combined Level 2 Exposion VFX"
+  Id: 9799985446996192355
+  Name: "General Explosion VFX"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 445316868778502538
       Objects {
         Id: 445316868778502538
-        Name: "Combined Level 2 Exposion VFX"
+        Name: "Simple Exposion VFX"
         Transform {
           Scale {
             X: 1
@@ -22,25 +22,12 @@ Assets {
             Bool: false
           }
           Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.969079494
-              G: 1
-              B: 0.0260000825
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Smoke Color"
-            Color {
-              R: 0.666
-              G: 0.570857048
-              A: 1
-            }
-          }
-          Overrides {
             Name: "bp:Emissive Boost"
-            Float: 34.0641098
+            Float: 24.5732555
+          }
+          Overrides {
+            Name: "bp:Light Brightness Multiplier"
+            Float: 4.30453
           }
         }
         Collidable_v2 {
