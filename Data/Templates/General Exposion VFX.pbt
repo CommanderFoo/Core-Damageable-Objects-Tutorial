@@ -1,6 +1,6 @@
 Assets {
   Id: 9799985446996192355
-  Name: "Gemeral Exposion VFX"
+  Name: "General Exposion VFX"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

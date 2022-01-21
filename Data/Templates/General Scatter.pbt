@@ -1,6 +1,6 @@
 Assets {
   Id: 4403109700279413973
-  Name: "Gemeral Scatter"
+  Name: "General Scatter"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
