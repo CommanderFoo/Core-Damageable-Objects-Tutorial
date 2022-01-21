@@ -4,9 +4,10 @@ local NOT_SUPPORTED = script:GetCustomProperty("NotSupported"):WaitForObject()
 NOT_SUPPORTED:Destroy()
 
 local meshes = SUPPORTED:FindDescendantsByType("StaticMesh")
-local power = 400
+local power = 1400
 local RNG = RandomStream.New()
 
+print(RNG:GetVector3FromCone(Vector3.UP, 190, 190))
 for _, mesh in ipairs(meshes) do
 	mesh.collision = Collision.FORCE_ON
 	mesh.cameraCollision = Collision.FORCE_OFF
@@ -14,7 +15,7 @@ for _, mesh in ipairs(meshes) do
 
 	if mesh.isSimulatingDebrisPhysics then
 		mesh.lifeSpan = RNG:GetNumber(2.5, 5)
-		mesh:SetVelocity(RNG:GetVector3FromCone(Vector3.UP, 60) * power)
+		mesh:SetVelocity(RNG:GetVector3FromCone(Vector3.UP, 0, 0) * power)
 	else
 		mesh:Destroy()
 	end

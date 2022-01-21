@@ -16,6 +16,8 @@ Objects {
   }
   ChildIds: 15730662516598526214
   ChildIds: 1821545894116462865
+  ChildIds: 16527483684003366470
+  ChildIds: 14014713011731856811
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +33,124 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 14014713011731856811
+  Name: "General Scatter"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12200146818679407656
+      value {
+        Overrides {
+          Name: "Name"
+          String: "General Scatter"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 342.462921
+            Y: 398.642731
+            Z: 281.22226
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4403109700279413973
+    }
+  }
+}
+Objects {
+  Id: 16527483684003366470
+  Name: "Damageable Object"
+  Transform {
+    Location {
+      X: 472.795593
+      Z: 95.9218292
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 1812563835905451256
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  DamageableObject {
+    DamageSettings {
+      MaxHitpoints: 100
+      StartingHitpoints: 100
+      DestroyOnDeath: true
+      DestroyOnDeathClientTemplateId {
+        Id: 9799985446996192355
+      }
+      DestroyOnDeathNetworkedTemplateId {
+        Id: 4403109700279413973
+      }
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 1812563835905451256
+  Name: "Exploding Dummy"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16527483684003366470
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16483005247303831324
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Exploding Dummy"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12673444971991168901
+    }
   }
 }
 Objects {
