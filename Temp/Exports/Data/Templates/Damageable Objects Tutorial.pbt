@@ -93,7 +93,7 @@ Assets {
     }
     Assets {
       Id: 14752805913586653731
-      Name: "Template Level 2 Dummy"
+      Name: "Chained Level 2 Dummy"
       PlatformAssetType: 5
       TemplateAsset {
         ObjectBlock {
@@ -4301,7 +4301,7 @@ Assets {
     }
     Assets {
       Id: 18121968099941103593
-      Name: "Template Dummy 2 Explosion VFX"
+      Name: "Chained Level 2 Dummy Explosion VFX"
       PlatformAssetType: 5
       TemplateAsset {
         ObjectBlock {
@@ -4396,7 +4396,7 @@ Assets {
     }
     Assets {
       Id: 17826200750605537296
-      Name: "Template 1 Dummy"
+      Name: "Chained Level 1 Dummy"
       PlatformAssetType: 5
       TemplateAsset {
         ObjectBlock {

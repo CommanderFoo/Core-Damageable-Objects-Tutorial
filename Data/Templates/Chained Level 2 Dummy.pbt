@@ -1,6 +1,6 @@
 Assets {
   Id: 14752805913586653731
-  Name: "Template Level 2 Dummy"
+  Name: "Chained Level 2 Dummy"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
