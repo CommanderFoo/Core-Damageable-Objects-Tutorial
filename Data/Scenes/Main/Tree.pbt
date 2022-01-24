@@ -17,6 +17,7 @@ Objects {
   ChildIds: 15730662516598526214
   ChildIds: 1821545894116462865
   ChildIds: 2759139862910361771
+  ChildIds: 16906053312388645365
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,8 +36,43 @@ Objects {
   }
 }
 Objects {
+  Id: 16906053312388645365
+  Name: "Advanced Dummy"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2612880878489831780
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Advanced Dummy"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 89.200592
+            Y: 134.621429
+            Z: 99.9385529
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 134419842489341524
+    }
+  }
+}
+Objects {
   Id: 2759139862910361771
-  Name: "Damageable Object"
+  Name: "Exploding Damageable Object"
   Transform {
     Location {
       X: 572.006775
@@ -71,10 +107,10 @@ Objects {
       StartingHitpoints: 100
       DestroyOnDeath: true
       DestroyOnDeathClientTemplateId {
-        Id: 841534158063459245
+        Id: 4403109700279413973
       }
       DestroyOnDeathNetworkedTemplateId {
-        Id: 4403109700279413973
+        Id: 841534158063459245
       }
     }
   }
