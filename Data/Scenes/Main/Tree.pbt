@@ -22,7 +22,6 @@ Objects {
   ChildIds: 9129459751397502317
   ChildIds: 9692428786268968884
   ChildIds: 11522898849304556410
-  ChildIds: 12707889103504070426
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,41 +37,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 12707889103504070426
-  Name: "Advanced Scatter"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16602482168469626826
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Advanced Scatter"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1065.46021
-            Y: 1793.41504
-            Z: -0.0424499512
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 460755333298918914
-    }
   }
 }
 Objects {
