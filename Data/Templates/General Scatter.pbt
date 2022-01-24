@@ -19,6 +19,7 @@ Assets {
         ChildIds: 548271838634483288
         ChildIds: 17771839968477836113
         ChildIds: 1503585779988006440
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
