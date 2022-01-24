@@ -7,7 +7,7 @@ Assets {
       RootId: 12200146818679407656
       Objects {
         Id: 12200146818679407656
-        Name: "Dummy Scatter"
+        Name: "General Scatter"
         Transform {
           Scale {
             X: 1

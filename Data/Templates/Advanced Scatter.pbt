@@ -7,7 +7,7 @@ Assets {
       RootId: 16602482168469626826
       Objects {
         Id: 16602482168469626826
-        Name: "Advanced Dummy Scatter"
+        Name: "Advanced Scatter"
         Transform {
           Scale {
             X: 1
@@ -647,6 +647,18 @@ Assets {
             Name: "cs:Firework2"
             AssetReference {
               Id: 14263214019118744010
+            }
+          }
+          Overrides {
+            Name: "cs:Firework3"
+            AssetReference {
+              Id: 8822533007899735381
+            }
+          }
+          Overrides {
+            Name: "cs:Firework4"
+            AssetReference {
+              Id: 9536644345811448976
             }
           }
         }
