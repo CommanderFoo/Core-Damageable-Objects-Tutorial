@@ -15,13 +15,7 @@ Objects {
     }
   }
   ChildIds: 15730662516598526214
-  ChildIds: 1313989210262496978
-  ChildIds: 4962979462128474007
-  ChildIds: 12342194406496571358
-  ChildIds: 14142444938841735902
-  ChildIds: 9129459751397502317
-  ChildIds: 9692428786268968884
-  ChildIds: 11522898849304556410
+  ChildIds: 361638372348923610
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,7 +34,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11522898849304556410
+  Id: 361638372348923610
   Name: "Advanced Dummy"
   Transform {
     Scale {
@@ -68,9 +62,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: 1500
-            Z: 75
+            X: 844.519043
+            Y: -101.142883
+            Z: 97.7374573
           }
         }
         Overrides {
@@ -82,273 +76,6 @@ Objects {
     }
     TemplateAsset {
       Id: 1076488276246013581
-    }
-  }
-}
-Objects {
-  Id: 9692428786268968884
-  Name: "Combined Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11723465271759184830
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Combined Level 1 Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: 900
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2409573658141753491
-    }
-  }
-}
-Objects {
-  Id: 9129459751397502317
-  Name: "Exploding Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4446743768335763302
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Exploding Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: 300
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8125152982583706911
-    }
-  }
-}
-Objects {
-  Id: 14142444938841735902
-  Name: "Template Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7928144800200397014
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Chained Level 1 Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: -300
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17569600087754605162
-    }
-  }
-}
-Objects {
-  Id: 12342194406496571358
-  Name: "Effects Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11422627469367738991
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Effects Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: -900
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4067605810473828302
-    }
-  }
-}
-Objects {
-  Id: 4962979462128474007
-  Name: "Simply Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17458553612486773941
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Simple Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: -1500
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1626164772379385443
-    }
-  }
-}
-Objects {
-  Id: 1313989210262496978
-  Name: "Advanced Assault Rifle"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13859206571032135798
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Advanced Assault Rifle"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5006246323538683437
     }
   }
 }
