@@ -1,13 +1,13 @@
 Assets {
-  Id: 5900853629837661249
-  Name: "Rifle Reload Sound"
+  Id: 10464718583626148499
+  Name: "Shotgun Muzzle Flash"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 4545369828039637509
+      RootId: 17731318846953981081
       Objects {
-        Id: 4545369828039637509
-        Name: "Rifle Reload Sound"
+        Id: 17731318846953981081
+        Name: "Shotgun Muzzle Flash"
         Transform {
           Scale {
             X: 1
@@ -16,10 +16,9 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 8454893697076786295
+        ChildIds: 353854217328473821
         UnregisteredParameters {
         }
-        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -37,12 +36,13 @@ Assets {
         }
       }
       Objects {
-        Id: 8454893697076786295
-        Name: "Gun Weapon Reload Set 01 SFX"
+        Id: 353854217328473821
+        Name: "Generic Muzzleflash VFX"
         Transform {
           Location {
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
             X: 1
@@ -50,13 +50,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4545369828039637509
+        ParentId: 17731318846953981081
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunreloads:28"
-            }
+            Name: "bp:Particle Size Multiplier"
+            Float: 1.2
           }
         }
         Collidable_v2 {
@@ -70,17 +68,14 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 11279392096978883335
+            Id: 16322635077100878811
           }
-          AudioBP {
+          Vfx {
             AutoPlay: true
-            Volume: 1
-            Falloff: 2000
-            Radius: 100
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -88,12 +83,12 @@ Assets {
       }
     }
     Assets {
-      Id: 11279392096978883335
-      Name: "Gun Weapon Reload Set 01 SFX"
-      PlatformAssetType: 10
+      Id: 16322635077100878811
+      Name: "Generic Muzzle Flash VFX"
+      PlatformAssetType: 8
       PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_reloads_ref"
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_generic_muzzleflash"
       }
     }
     PrimaryAssetId {
@@ -102,5 +97,4 @@ Assets {
     }
   }
   SerializationVersion: 104
-  VirtualFolderPath: "Assault Rifle"
 }

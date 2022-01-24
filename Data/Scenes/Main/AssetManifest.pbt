@@ -43,3 +43,12 @@ Assets {
     AssetId: "mi_grass_artificial_001_uv_ref"
   }
 }
+Assets {
+  Id: 2470662505696885514
+  Name: "Porcelain Vase 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_vase_porcelain_003"
+  }
+}

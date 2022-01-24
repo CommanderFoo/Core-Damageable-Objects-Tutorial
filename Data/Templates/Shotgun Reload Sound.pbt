@@ -1,13 +1,13 @@
 Assets {
-  Id: 6795206535065158887
-  Name: "Generic Sound Pickup"
+  Id: 16118667818826686655
+  Name: "Shotgun Reload Sound"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 13644638768556943119
+      RootId: 3655346369602173894
       Objects {
-        Id: 13644638768556943119
-        Name: "Generic Sound Pickup"
+        Id: 3655346369602173894
+        Name: "Shotgun Reload Sound"
         Transform {
           Scale {
             X: 1
@@ -16,9 +16,10 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 14161033992207230210
+        ChildIds: 16716249799289046792
         UnregisteredParameters {
         }
+        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -36,8 +37,8 @@ Assets {
         }
       }
       Objects {
-        Id: 14161033992207230210
-        Name: "Weapon Pickup SFX"
+        Id: 16716249799289046792
+        Name: "Gun Weapon Reload Set 01 SFX"
         Transform {
           Location {
           }
@@ -49,8 +50,14 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13644638768556943119
+        ParentId: 3655346369602173894
         UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_gunreloads:44"
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -61,16 +68,19 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        AudioInstance {
-          AudioAsset {
-            Id: 9325668214448125402
+        Blueprint {
+          BlueprintAsset {
+            Id: 11279392096978883335
           }
-          AutoPlay: true
-          Volume: 1
-          Falloff: 3600
-          Radius: 400
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
+          AudioBP {
+            AutoPlay: true
+            Volume: 1
+            Falloff: 1000
+            Radius: 100
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -78,12 +88,12 @@ Assets {
       }
     }
     Assets {
-      Id: 9325668214448125402
-      Name: "Weapon Pickup 01 SFX"
-      PlatformAssetType: 7
+      Id: 11279392096978883335
+      Name: "Gun Weapon Reload Set 01 SFX"
+      PlatformAssetType: 10
       PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_weapon_pickup"
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_reloads_ref"
       }
     }
     PrimaryAssetId {

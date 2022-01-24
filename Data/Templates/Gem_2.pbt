@@ -1,13 +1,13 @@
 Assets {
-  Id: 13235592136068060647
-  Name: "Rifle Muzzle Flash"
+  Id: 14786884189150806278
+  Name: "Gem"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11736491869790306490
+      RootId: 1999400482394419323
       Objects {
-        Id: 11736491869790306490
-        Name: "Rifle Muzzle Flash"
+        Id: 1999400482394419323
+        Name: "Gem"
         Transform {
           Scale {
             X: 1
@@ -16,10 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 13614593215932494344
-        UnregisteredParameters {
-        }
-        Lifespan: 2.5
+        ChildIds: 4104723907601493362
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -30,20 +27,24 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        NetworkContext {
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
-        Id: 13614593215932494344
-        Name: "Generic Muzzleflash VFX"
+        Id: 4104723907601493362
+        Name: "Gem - Diamond 6-Sided Polished"
         Transform {
           Location {
+            Z: 60
           }
           Rotation {
-            Pitch: -90
           }
           Scale {
             X: 1
@@ -51,13 +52,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11736491869790306490
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 1
-          }
-        }
+        ParentId: 1999400482394419323
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -67,16 +63,24 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        Blueprint {
-          BlueprintAsset {
-            Id: 16322635077100878811
-          }
-          Vfx {
-            AutoPlay: true
-          }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
+        CoreMesh {
+          MeshAsset {
+            Id: 500106236787475702
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -84,12 +88,12 @@ Assets {
       }
     }
     Assets {
-      Id: 16322635077100878811
-      Name: "Generic Muzzle Flash VFX"
-      PlatformAssetType: 8
+      Id: 500106236787475702
+      Name: "Gem - Diamond 6-Sided Polished"
+      PlatformAssetType: 1
       PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_generic_muzzleflash"
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_diamond_6_sided_polished_001"
       }
     }
     PrimaryAssetId {
@@ -98,5 +102,4 @@ Assets {
     }
   }
   SerializationVersion: 104
-  VirtualFolderPath: "Assault Rifle"
 }

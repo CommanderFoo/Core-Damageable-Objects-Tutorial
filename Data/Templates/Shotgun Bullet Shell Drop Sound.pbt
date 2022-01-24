@@ -1,13 +1,13 @@
 Assets {
-  Id: 9799985446996192355
-  Name: "General Explosion VFX"
+  Id: 6865710455785755955
+  Name: "Shotgun Bullet Shell Drop Sound"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 445316868778502538
+      RootId: 3081722450866107420
       Objects {
-        Id: 445316868778502538
-        Name: "Simple Exposion VFX"
+        Id: 3081722450866107420
+        Name: "Shotgun Bullet Shell Drop Sound"
         Transform {
           Scale {
             X: 1
@@ -18,18 +18,13 @@ Assets {
         ParentId: 4781671109827199097
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Enable Ring"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 24.5732555
-          }
-          Overrides {
-            Name: "bp:Light Brightness Multiplier"
-            Float: 4.30453
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_bullet_shells_casings_drop_01:1"
+            }
           }
         }
+        Lifespan: 0.8
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -39,21 +34,20 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
         Blueprint {
           BlueprintAsset {
-            Id: 4183729060742858332
+            Id: 1566294819570033529
           }
           TeamSettings {
           }
-          Vfx {
+          AudioBP {
             AutoPlay: true
+            Volume: 0.3
+            Falloff: 3600
+            Radius: 400
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
           }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
@@ -61,12 +55,12 @@ Assets {
       }
     }
     Assets {
-      Id: 4183729060742858332
-      Name: "Basic Explosion VFX"
-      PlatformAssetType: 8
+      Id: 1566294819570033529
+      Name: "Bullet Shell Casing Drop Set 01 SFX"
+      PlatformAssetType: 10
       PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_explosion"
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_bullet_shell_casings_drop_ref"
       }
     }
     PrimaryAssetId {
@@ -75,5 +69,4 @@ Assets {
     }
   }
   SerializationVersion: 104
-  VirtualFolderPath: "Tutorial Assets"
 }

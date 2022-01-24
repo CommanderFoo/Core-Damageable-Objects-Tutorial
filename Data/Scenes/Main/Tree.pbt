@@ -15,13 +15,8 @@ Objects {
     }
   }
   ChildIds: 15730662516598526214
-  ChildIds: 1313989210262496978
-  ChildIds: 4962979462128474007
-  ChildIds: 12342194406496571358
-  ChildIds: 14142444938841735902
-  ChildIds: 9129459751397502317
-  ChildIds: 9692428786268968884
-  ChildIds: 11522898849304556410
+  ChildIds: 10266247785078409190
+  ChildIds: 6120628383513074140
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,8 +35,8 @@ Objects {
   }
 }
 Objects {
-  Id: 11522898849304556410
-  Name: "Advanced Dummy"
+  Id: 6120628383513074140
+  Name: "Advanced Shotgun"
   Transform {
     Scale {
       X: 1
@@ -50,6 +45,39 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17886792431389911077
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Advanced Shotgun"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7259361393832384871
+    }
+  }
+}
+Objects {
+  Id: 10266247785078409190
+  Name: "Vase Damageable Object"
+  Transform {
+    Location {
+      X: 380.102783
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 7316825416762995195
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -57,45 +85,44 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 15767091347673181891
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Advanced Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: 1500
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  DamageableObject {
+    DamageSettings {
+      MaxHitpoints: 100
+      StartingHitpoints: 100
+      DestroyOnDeath: true
+      DestroyOnDeathClientTemplateId {
+        Id: 841534158063459245
+      }
+      DestroyOnDeathNetworkedTemplateId {
+        Id: 8725067390390293791
       }
     }
-    TemplateAsset {
-      Id: 1076488276246013581
-    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 9692428786268968884
-  Name: "Combined Dummy"
+  Id: 7316825416762995195
+  Name: "Porcelain Vase 03"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 10266247785078409190
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -103,253 +130,30 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11723465271759184830
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Combined Level 1 Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: 900
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2409573658141753491
-    }
-  }
-}
-Objects {
-  Id: 9129459751397502317
-  Name: "Exploding Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
+  CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4446743768335763302
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Exploding Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: 300
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
+  CoreMesh {
+    MeshAsset {
+      Id: 2470662505696885514
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
       }
-    }
-    TemplateAsset {
-      Id: 8125152982583706911
+      BoundsScale: 1
     }
   }
-}
-Objects {
-  Id: 14142444938841735902
-  Name: "Template Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7928144800200397014
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Chained Level 1 Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: -300
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17569600087754605162
-    }
-  }
-}
-Objects {
-  Id: 12342194406496571358
-  Name: "Effects Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11422627469367738991
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Effects Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: -900
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 4067605810473828302
-    }
-  }
-}
-Objects {
-  Id: 4962979462128474007
-  Name: "Simply Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17458553612486773941
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Simple Dummy"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 400
-            Y: -1500
-            Z: 75
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1626164772379385443
-    }
-  }
-}
-Objects {
-  Id: 1313989210262496978
-  Name: "Advanced Assault Rifle"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13859206571032135798
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Advanced Assault Rifle"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5006246323538683437
-    }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -823,6 +627,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
+      X: -241.394119
       Z: 165
     }
     Rotation {
