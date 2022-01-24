@@ -16,7 +16,6 @@ Objects {
   }
   ChildIds: 15730662516598526214
   ChildIds: 1821545894116462865
-  ChildIds: 16009181330291544612
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,95 +31,6 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 16009181330291544612
-  Name: "Advanced Damageable Object"
-  Transform {
-    Location {
-      X: 652.133057
-      Z: 87.7584076
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 6240022996303998971
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  DamageableObject {
-    DamageSettings {
-      MaxHitpoints: 100
-      StartingHitpoints: 100
-      DestroyOnDeath: true
-      DestroyOnDeathClientTemplateId {
-        Id: 841534158063459245
-      }
-      DestroyOnDeathNetworkedTemplateId {
-        Id: 841534158063459245
-      }
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 6240022996303998971
-  Name: "Advanced Dummy"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16009181330291544612
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2612880878489831780
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Advanced Dummy"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -1.02452823e-05
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 134419842489341524
-    }
   }
 }
 Objects {
