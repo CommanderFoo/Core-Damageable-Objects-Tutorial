@@ -16,7 +16,7 @@ Objects {
   }
   ChildIds: 15730662516598526214
   ChildIds: 1821545894116462865
-  ChildIds: 2759139862910361771
+  ChildIds: 16009181330291544612
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,12 +35,12 @@ Objects {
   }
 }
 Objects {
-  Id: 2759139862910361771
-  Name: "Exploding Damageable Object"
+  Id: 16009181330291544612
+  Name: "Advanced Damageable Object"
   Transform {
     Location {
-      X: 572.006775
-      Z: 88.192276
+      X: 652.133057
+      Z: 87.7584076
     }
     Rotation {
     }
@@ -51,7 +51,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 18310321254459536942
+  ChildIds: 6240022996303998971
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -74,7 +74,7 @@ Objects {
         Id: 841534158063459245
       }
       DestroyOnDeathNetworkedTemplateId {
-        Id: 4403109700279413973
+        Id: 841534158063459245
       }
     }
   }
@@ -83,8 +83,8 @@ Objects {
   }
 }
 Objects {
-  Id: 18310321254459536942
-  Name: "Exploding Dummy"
+  Id: 6240022996303998971
+  Name: "Advanced Dummy"
   Transform {
     Scale {
       X: 1
@@ -92,15 +92,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2759139862910361771
+  ParentId: 16009181330291544612
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
-      key: 16483005247303831324
+      key: 2612880878489831780
       value {
         Overrides {
           Name: "Name"
-          String: "Exploding Dummy"
+          String: "Advanced Dummy"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -1.02452823e-05
+          }
         }
         Overrides {
           Name: "Scale"
@@ -113,7 +119,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 12673444971991168901
+      Id: 134419842489341524
     }
   }
 }

@@ -1,6 +1,6 @@
 Assets {
   Id: 9164762681017249603
-  Name: "Combined 1 Dummy"
+  Name: "Combined Level 1 Dummy"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
