@@ -51,7 +51,7 @@ Objects {
   ParentId: 4781671109827199097
   ChildIds: 12709215593532871917
   ChildIds: 8559028275550717248
-  ChildIds: 9247384610505572764
+  ChildIds: 11217347932048281631
   ChildIds: 16730778989759650507
   ChildIds: 15197814448520967507
   ChildIds: 6803162042871508698
@@ -112,6 +112,24 @@ Objects {
   }
   ParentId: 5149439392584521226
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:HeadDamageable"
+      ObjectReference {
+        SelfId: 16730778989759650507
+      }
+    }
+    Overrides {
+      Name: "cs:LeftHandDamageable"
+      ObjectReference {
+        SelfId: 15197814448520967507
+      }
+    }
+    Overrides {
+      Name: "cs:RightHandDamageable"
+      ObjectReference {
+        SelfId: 6803162042871508698
+      }
+    }
   }
   WantsNetworking: true
   Collidable_v2 {
@@ -3890,52 +3908,6 @@ Objects {
   }
 }
 Objects {
-  Id: 9247384610505572764
-  Name: "Body"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5149439392584521226
-  ChildIds: 11217347932048281631
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  DamageableObject {
-    DamageSettings {
-      MaxHitpoints: 100
-      StartingHitpoints: 100
-      DestroyOnDeath: true
-      DestroyOnDeathClientTemplateId {
-        Id: 841534158063459245
-      }
-      DestroyOnDeathNetworkedTemplateId {
-        Id: 841534158063459245
-      }
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
   Id: 11217347932048281631
   Name: "Body"
   Transform {
@@ -3949,7 +3921,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9247384610505572764
+  ParentId: 5149439392584521226
   UnregisteredParameters {
   }
   WantsNetworking: true
