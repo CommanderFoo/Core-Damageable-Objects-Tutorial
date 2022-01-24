@@ -15,6 +15,7 @@ Objects {
     }
   }
   ChildIds: 15730662516598526214
+  ChildIds: 16184964289411881726
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +31,39 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 16184964289411881726
+  Name: "Advanced Dummy"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2612880878489831780
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Advanced Dummy"
+        }
+        Overrides {
+          Name: "Damageable.DestroyOnDeathNetworkedTemplateId"
+          AssetReference {
+            Id: 460755333298918914
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 134419842489341524
+    }
   }
 }
 Objects {
