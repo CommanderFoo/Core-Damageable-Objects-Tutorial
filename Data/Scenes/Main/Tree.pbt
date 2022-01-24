@@ -81,7 +81,7 @@ Objects {
         Id: 9799985446996192355
       }
       DestroyOnDeathNetworkedTemplateId {
-        Id: 4403109700279413973
+        Id: 460755333298918914
       }
     }
   }
