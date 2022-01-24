@@ -55,6 +55,7 @@ Objects {
   ChildIds: 16730778989759650507
   ChildIds: 15197814448520967507
   ChildIds: 6803162042871508698
+  ChildIds: 13397348268179401284
   UnregisteredParameters {
   }
   WantsNetworking: true
@@ -90,6 +91,45 @@ Objects {
     InstanceId: 9343666779625663112
     TemplateId: 134419842489341524
     WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 13397348268179401284
+  Name: "MakeVulnerableServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5149439392584521226
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8398634797544787897
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
