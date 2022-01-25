@@ -158,6 +158,9 @@ Objects {
   Name: "Right Hand"
   Transform {
     Location {
+      X: -12.2679443
+      Y: -138.806641
+      Z: 74.7100525
     }
     Rotation {
     }
@@ -204,9 +207,6 @@ Objects {
   Name: "Right Hand"
   Transform {
     Location {
-      X: -12.2679443
-      Y: -138.806641
-      Z: 74.7100525
     }
     Rotation {
     }
@@ -1469,6 +1469,9 @@ Objects {
   Name: "Left Hand"
   Transform {
     Location {
+      X: -10.2151489
+      Y: 129.537476
+      Z: 60.3306885
     }
     Rotation {
     }
@@ -1515,9 +1518,6 @@ Objects {
   Name: "Left Hand"
   Transform {
     Location {
-      X: -10.2151489
-      Y: 129.537476
-      Z: 60.3306885
     }
     Rotation {
     }
@@ -2833,6 +2833,9 @@ Objects {
   Name: "Head"
   Transform {
     Location {
+      X: -2.68383789
+      Y: -1.80940747
+      Z: 127.641144
     }
     Rotation {
     }
@@ -2879,9 +2882,6 @@ Objects {
   Name: "Head"
   Transform {
     Location {
-      X: -2.68383789
-      Y: -1.80940747
-      Z: 127.641144
     }
     Rotation {
     }
@@ -4725,6 +4725,7 @@ Objects {
     }
   }
   ParentId: 5149439392584521226
+  ChildIds: 17137138859837903951
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -4745,6 +4746,44 @@ Objects {
     SubobjectId: 15227970746644597635
     InstanceId: 9343666779625663112
     TemplateId: 134419842489341524
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 17137138859837903951
+  Name: "ShowDamageClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12709215593532871917
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5551009602337371827
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
