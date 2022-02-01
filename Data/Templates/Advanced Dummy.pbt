@@ -2114,6 +2114,8 @@ Assets {
         }
         ParentId: 3303876232536878116
         ChildIds: 4835468983009714634
+        ChildIds: 471793204003187819
+        ChildIds: 4920378710979356623
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2139,7 +2141,7 @@ Assets {
             Opacity: 1
             CanvasWorldSize {
               X: 400
-              Y: 50
+              Y: 110.411438
             }
             RedrawTime: 30
           }
@@ -2237,6 +2239,172 @@ Assets {
         }
       }
       Objects {
+        Id: 471793204003187819
+        Name: "Armor"
+        Transform {
+          Location {
+            X: 400.000122
+            Y: 1499.99939
+            Z: -368.090851
+          }
+          Rotation {
+            Yaw: 179.999985
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8660859613970565756
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Control {
+          Width: 200
+          Height: 10
+          UIY: -12.8993301
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          StatBar {
+            Color {
+              G: 0.244444832
+              B: 0.7700001
+              A: 1
+            }
+            BackgroundColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Percent: 1
+            FillBrush {
+              Id: 841534158063459245
+            }
+            BackgroundBrush {
+              Id: 841534158063459245
+            }
+            FillType {
+              Value: "mc:eprogressbarfilltype:lefttoright"
+            }
+            FillTileType {
+              Value: "mc:eslatebrushtiletype:notile"
+            }
+            BackgroundTileType {
+              Value: "mc:eslatebrushtiletype:notile"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4920378710979356623
+        Name: "Health"
+        Transform {
+          Location {
+            X: 399.999146
+            Y: 1499.99744
+            Z: -368.090851
+          }
+          Rotation {
+            Yaw: 179.999969
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8660859613970565756
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Control {
+          Width: 200
+          Height: 10
+          UIY: -1
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          StatBar {
+            Color {
+              R: 0.882000089
+              G: 4.20570416e-07
+              A: 1
+            }
+            BackgroundColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Percent: 1
+            FillBrush {
+              Id: 841534158063459245
+            }
+            BackgroundBrush {
+              Id: 841534158063459245
+            }
+            FillType {
+              Value: "mc:eprogressbarfilltype:lefttoright"
+            }
+            FillTileType {
+              Value: "mc:eslatebrushtiletype:notile"
+            }
+            BackgroundTileType {
+              Value: "mc:eslatebrushtiletype:notile"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 2575138531598225252
         Name: "ShowDamageClient"
         Transform {
@@ -2256,6 +2424,18 @@ Assets {
             Name: "cs:Root"
             ObjectReference {
               SubObjectId: 15767091347673181891
+            }
+          }
+          Overrides {
+            Name: "cs:Armor"
+            ObjectReference {
+              SubObjectId: 471793204003187819
+            }
+          }
+          Overrides {
+            Name: "cs:Health"
+            ObjectReference {
+              SubObjectId: 4920378710979356623
             }
           }
         }
@@ -4578,6 +4758,6 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 104
+  SerializationVersion: 105
   VirtualFolderPath: "Tutorial Assets"
 }
